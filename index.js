@@ -83,6 +83,6 @@ function placeOrder(cardNumber) {
   else console.log("Your total cost is $" + t + ", which will be charged to the card " + cardNumber + ".")
   let m = cart.length
   for (var i = 0; i < l; i++) {
-    
+    cart.shift()
   }
 }
