@@ -81,5 +81,6 @@ function placeOrder(cardNumber) {
     console.log("Sorry, we dont have a credit card on file for you.")
   }
   else console.log("Your total cost is $" + t + ", which will be charged to the card " + cardNumber + ".")
+  let m = cart.length
   
 }
