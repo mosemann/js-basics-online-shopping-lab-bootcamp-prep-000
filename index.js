@@ -70,7 +70,7 @@ function removeFromCart(item) {
   let t=0
   for (var i = 0, l = cart.length; i < l; i++) {
      if (item === cart[i]) {
-       delete cart[i]
+       delete cart.key[i]
        i = (i-1)
        t=1
      }
